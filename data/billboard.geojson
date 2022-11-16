@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"name": "billboard",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 554, "location": "Mombasa Road", "x_Cord.": null, "Y_Cord": null, "photo": "img8", "size": "6.91 x 3.17 m", "Status": "Reserved", "end_time": null }, "geometry": { "type": "Point", "coordinates": [ 36.829872825891272, -1.311079513137944 ] } },
+{ "type": "Feature", "properties": { "id": 252, "location": null, "x_Cord.": null, "Y_Cord": null, "photo": "img12", "size": "3.66 x 2.44 m", "Status": "Underconstruction", "end_time": "5\/12\/2022" }, "geometry": { "type": "Point", "coordinates": [ 36.828259014288747, -1.30795012194348 ] } },
+{ "type": "Feature", "properties": { "id": 258, "location": "Nyayo stadium Round About", "x_Cord.": null, "Y_Cord": null, "photo": "img11", "size": "3.35 x 1.52 m", "Status": "Available", "end_time": null }, "geometry": { "type": "Point", "coordinates": [ 36.826033006763097, -1.304713728023195 ] } },
+{ "type": "Feature", "properties": { "id": 845, "location": "Nyayo stadium Round about", "x_Cord.": null, "Y_Cord": null, "photo": "img10", "size": "3.35 x 1.52 m", "Status": "NotAvailable", "end_time": "16\/10\/2022" }, "geometry": { "type": "Point", "coordinates": [ 36.826946915290165, -1.305125951639058 ] } },
+{ "type": "Feature", "properties": { "id": 101, "location": "Opposite T.mall ,Langata Road", "x_Cord.": null, "Y_Cord": null, "photo": "img1", "size": "3.35 x 1.52 m", "Status": "Available", "end_time": null }, "geometry": { "type": "Point", "coordinates": [ 36.81551758295862, -1.312333433836965 ] } },
+{ "type": "Feature", "properties": { "id": 122, "location": "Opposite KFC makadara ,along Langata Road", "x_Cord.": null, "Y_Cord": null, "photo": "img2", "size": "6.91 x 3.17 m", "Status": "NotAvailable", "end_time": "5\/6\/2023" }, "geometry": { "type": "Point", "coordinates": [ 36.816704534018612, -1.31121312429977 ] } },
+{ "type": "Feature", "properties": { "id": 132, "location": "Next to One stop Plaza shopping mall,Langata Road", "x_Cord.": null, "Y_Cord": null, "photo": "img7", "size": "3.66 x 2.44 m", "Status": "Available", "end_time": null }, "geometry": { "type": "Point", "coordinates": [ 36.817266160072414, -1.311155251565994 ] } },
+{ "type": "Feature", "properties": { "id": 251, "location": "Makadara Round about", "x_Cord.": null, "Y_Cord": null, "photo": "img6", "size": "3.66 x 2.44 m", "Status": "Reserved", "end_time": "5\/11\/2022" }, "geometry": { "type": "Point", "coordinates": [ 36.819279597761799, -1.307329155305117 ] } },
+{ "type": "Feature", "properties": { "id": 411, "location": "Opposite Weston Hotel,Langata Road", "x_Cord.": null, "Y_Cord": null, "photo": "img9", "size": "3.66 x 2.44 m", "Status": "Underconstruction", "end_time": "17\/7\/2022" }, "geometry": { "type": "Point", "coordinates": [ 36.81404074881597, -1.315749041926993 ] } },
+{ "type": "Feature", "properties": { "id": 413, "location": "Next to Child Welfare Society of kenya, langata Rd", "x_Cord.": null, "Y_Cord": null, "photo": "img4", "size": "3.66 x 1.83 m", "Status": "NotAvailable", "end_time": "2\/8\/2022" }, "geometry": { "type": "Point", "coordinates": [ 36.818378928366485, -1.309244549149565 ] } },
+{ "type": "Feature", "properties": { "id": 421, "location": "Makadara Round about", "x_Cord.": null, "Y_Cord": null, "photo": "img5", "size": "3.66 x 2.44 m", "Status": "Available", "end_time": null }, "geometry": { "type": "Point", "coordinates": [ 36.819645353871813, -1.307448916728678 ] } }
+]
+}

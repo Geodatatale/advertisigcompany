@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>zoomadvertising</title>
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="shortcut icon" href="img/logo/circle logo.png">
+
+	<link href="assets/bootstrap-4.5.0-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/bootstrap-4.5.0-dist/css/bootstrap.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet" media="screen">
+	<link href="assets/font awesome/css/fontawesome.css" rel="stylesheet" media="screen">
+	<link href="css/contact.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-expand-md" id="navheader">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo/bilboard.png" width="auto" height="60" alt=""></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fa fa-bars"></i></span></button>
+
+    <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
+
+      <ul class="navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="dashboard.html">Locations</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+
+      <span class="navbar-text"><a href="https://twitter.com/zoomadvertising" class="nav-icon"><span class="fa fa-twitter"></span></a></span>
+      <span class="navbar-text"><a href="https://zoomadvertising.com" class="nav-icon"><span class="fa fa-google-plus"></span></a></span>
+      <span class="navbar-text"><a href="https://www.facebook.com/zoomadvertising" class="nav-icon"><span class="fa fa-facebook"></span></a></span>
+
+      <div class="copy-right">
+        <div class="col-md-12">
+          <strong><span>Copyright &copy; Zoomadvertising.</span></strong> All Rights Reserved | Designed by: <a href="www.datatale.com"> <strong>Datatale </strong></a>
+        </div>
+      </div>
+                
+    </div>
+  </div>
+</nav>
+
+<!-- ======= Contact-page ======= -->
+<section id="contact-page" class="view">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="banner-text">
+          <div class="about-header-text">
+            <h1>Contact us</h1>
+            <!--<p>Join us today.</p>-->
+            <p><a href="about.html#about" class="fill-button"><i class="fa fa-wrench"></i> Get started</a> <a href="mailto:info@datatale.com?" class="border-button"><i class="fa fa-envelope"></i> Send mail</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Contact ======= -->
+<section id="contact">
+  <div class="contact-title">
+    <h2>Leave us your Message</h2>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="contact_form">
+          <form class="contact_form" id="contact_form" action="contact.php" method="post">
+            <div class="row">
+              
+              <div class="col-md-6">
+              <br><h4>Request your billboard now</h4>
+              <p>You're one step closer! Simply complete the fields below and we'll get in touch with all the details you need to get your business demanding the attention of new customers.</p>
+             <div id="quote">  
+   <div class="row label" >
+       <div class="col-md-4">
+        <label for="name">First Name*</label>
+        <input name="name" type="text" placeholder="" required>
+        </div>
+        <div class="col-md-4">
+        <label for="name">Second Name*</label>
+        <input name="name" type="text" placeholder="" required>
+        </div>
+        <div class="col-md-4">
+            <label for="company">Company Name*</label>
+            <input name="company" type="text" placeholder="" required>
+        </div>
+             
+              <div class="col-md-6">
+                  <label for="phonenumber">Phone Number*</label>
+                  <input name="phonenumber" type="number" placeholder="" required>
+              </div>
+              <div class="col-md-6">
+                  <label for="email">Email*</label>
+                  <input name="email" type="email" placeholder="" required>
+          </div>
+         
+          <div class="col-md-6">
+                  <label for="date">Advertising Start Date*</label>
+                  <input name="date" type="date" placeholder="" required >
+              </div>
+              <div class="col-md-6">
+                  <label for="lengthcover" >Campaign length*</label>
+                  <select name="lenthcover" id="campaign" required>
+                      <option value="Duration" selected="selected" disabled>Please Select</option> 
+                      <option value="3Months">3Months</option>
+                      <option value="6Months">6Months</option>
+                      <option value="12Months">12Months</option>                   
+                  </select>
+          </div>
+          <div class="col-md-12">
+             <label for="name">Billboard locations of intrest*</label><br>
+              <input name="name" type="text" placeholder="" required>
+          </div>
+          <div class="col-md-12">
+              <label for="social">How did you hear about us*</label>
+                  <select name="social" id="hearabt" placevalue="select">
+                      <option value="social" selected="selected" disabled ><span>Please Select</span></option> 
+                      <option value="Google" >Google</option>
+                      <option value="Instagram">Instagram</option>
+                      <option value="Facebook">Facebook</option> 
+                      <option value="LikedIn">LikedIn</option> 
+                      <option value="Refferal">Refferal</option> 
+                      <option value="Bilboard">Bilboard</option> 
+                                        
+                  </select>
+          </div>
+          <div class="col-md-12">
+              <label for="name">what would you like to advertise?*</label>
+              <input name="name" type="text" required>
+          </div>
+          
+        </div>
+             <div class="submit-button" id="submit">
+                    <button id="form-submit" class="border-button" type="submit" value="Submit" name="submit">Submit</button>
+                  </div>
+              </div>
+                </div>
+              <div class="col-md-6">
+                <div class="group1">
+                  <div class="container">
+                    <div class="cont-title">
+                      <h3><i class="fa fa-suitcase"></i> keep in touch</h3>
+                      <p>Feel free to ask if you have any question regarding our services or if you just want to say Hello, we would love to hear from you.</p>
+                    </div>
+
+                    <div class="dotted_line"></div>
+                    <div class="contact_info_content" id="cont">
+                      <ul>
+                        <li><i class="fa fa-map-marker"></i> Kimathi st, Eagle House<br> Nairobi City, Kenya</li>
+                        <li><i class="fa fa-phone"></i> +254791 874358 <br> <i class="fa fa-phone"></i> +254791 874358</li> 
+                        <li><i class="fa fa-at"></i> info@zoomadvertising.com</li>
+                        <li><i class="fa fa-at"></i> support@zomadvertising.com</li>
+                        <li><i class="fa fa-globe"></i> www.zoomadvertising.com</li>
+                      </ul>
+                    </div>
+
+                    
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- end row -->
+          </form><!-- end form -->
+        </div><!-- end contact-form -->
+      </div><!-- end col -->
+    </div><!-- end  row-->
+  </div><!-- end container -->
+</section><!-- end section -->
+
+<!-- ======= Map ======= -->
+
+<iframe src="https://maps.google.com/maps?q=eagle%20house&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="container ">
+  <div class="row footer">
+    <div class="col-md-4">
+      <img src="img/logo/bilboard2.png" style="height:150px ;">
+    </div>
+    <div class="col-md-4 ">
+      <h4>CONTACT US</h4><br>
+      <h5>HQ</h5>
+      <p>Kimathi st, Eagle House<br>
+        Nairobi City, Kenya</p><br>
+        <h10>CONTACT US<br>(+254) 791874358</h10>
+      </div>
+        <div class="col-md-4">
+          <h4>EXPLORE US</h4><br>
+          <h5>What We Do</h5>
+          <p><a href="index.html">Home</a>
+            <a href="about.html">About Us</a><br>
+             <a href="services.html">Services</a><br>
+             <a href="dashboard.html">Locations</a><br>
+          </p>
+        </div>
+    
+      </div>
+      
+    </div>
+</footer>
+<footer id="footer2">
+  <div class="row footer2">
+    <div class="col-md-4"><span class="copyright">Copyright &copy; 2022<strong> Zoom Advertising.</strong></span> </div>
+    <div class="col-md-4">
+      <ul class="social-buttons">
+        <li><a href="https://twitter.com/zoomadvertising"><i class="fa fa-twitter"></i></a> </li>
+        <li><a href="https://www.facebook.com/zoomadvertising"><i class="fa fa-facebook"></i></a> </li>
+        <li><a href="#"><i class="fa fa-linkedin"></i></a> </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <ul class="list-inline quicklinks">
+        <li>Designed by <a href="http://datatale.com"><strong>Datatale </strong></a> </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!-- ======= Scrool Up Button ======= -->
+<button onclick="topFunction()" id="myBtn" title=""><i class="fa fa-angle-up"></i></button>
+<!-- ======= Scrool Up Button{Script} ======= -->
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<!-- JavaScript Libraries -->
+<script src="assets/scripts/jquery-3.4.1.slim.min.js"></script>
+<script src="assets/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap-4.5.0-dist/js/bootstrap.bundle.js"></script>
+<script src="assets/scripts/observers.js"></script>
+<script src="assets/scripts/typed.js"></script>
+<script src="assets/scripts/waypoints.min.js"></script>
+<script src="assets/scripts/counterup.min.js"></script>
+<!-- Contact Form JavaScript File -->
+<script src=""></script>
+<!-- Template Main Javascript File -->
+<script src="assets/scripts/main.js"></script>
+</body>
+</html>
